@@ -2,7 +2,7 @@
 jsut 2 svelte you need.
 
 
-###Main - App.svelte
+### Main - App.svelte
 ```
 <script>
 	
@@ -22,7 +22,7 @@ jsut 2 svelte you need.
 <button on:click={openModal2}>OPEN MODAL 2</button>
 <Modal bind:this={modal} />
 ```
-###Nested - Modal.svelte
+### Nested - Modal.svelte
 ```
 <script>
 
